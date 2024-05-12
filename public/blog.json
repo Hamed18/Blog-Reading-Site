@@ -1,0 +1,53 @@
+[
+	{
+	  "ID": "987654",
+	  "Cover": "https://i.ibb.co/BZ3PM5B/hiking-men-conquer-mountain-peak-adventure-awaits-generative-ai.jpg",
+	  "Title": "Echoes of Eternity",
+	  "Author": "Hamed Hasan",
+	  "AuthorImg": "https://i.ibb.co/vH3MkxS/myPic.jpg",
+	  "PostedDate": "May 10, 2024",
+	  "ReadingTime": 12,
+	  "Hashtags": ["#fantasy", "#adventure", "#magic"]
+	},
+	{
+	  "ID": "123456",
+	  "Cover": "https://i.ibb.co/cwZTqxp/skull-candle-dark-red-light.jpg",
+	  "Title": "Whispers in the Shadows",
+	  "Author": "Hamed Hasan",
+	  "AuthorImg": "https://i.ibb.co/vH3MkxS/myPic.jpg",
+	  "PostedDate": "May 8, 2024",
+	  "ReadingTime": 8,
+	  "Hashtags": ["#horror", "#mystery", "#suspense"]
+	},
+	{
+	  "ID": "789012",
+	  "Cover": "https://i.ibb.co/bNs5LBf/young-couple-together-walking-autumn-park.jpg",
+	  "Title": "Sands of Serenity",
+	  "Author": "Aria Evergreen",
+	  "AuthorImg": "https://i.ibb.co/vH3MkxS/myPic.jpg",
+	  "PostedDate": "May 7, 2024",
+	  "ReadingTime": 10,
+	  "Hashtags": ["#romance", "#fiction", "#beachread"]
+	},
+	{
+	  "ID": "456789",
+	  "Cover": "https://i.ibb.co/Jpwq6ZB/pexels-luis-gomes-166706-546819.jpg",
+	  "Title": "Chronicles of Chaos",
+	  "Author": "Hamed Hasan",
+	  "AuthorImg": "https://i.ibb.co/vH3MkxS/myPic.jpg",
+	  "PostedDate": "May 5, 2024",
+	  "ReadingTime": 15,
+	  "Hashtags": ["#scifi", "#dystopian", "#future"]
+	},
+	{
+	  "ID": "234567",
+	  "Cover": "https://i.ibb.co/z7nZxgs/pexels-suzyhazelwood-1122865.jpg",
+	  "Title": "Songs of Solitude",
+	  "Author": "Luna Moonshadow",
+	  "AuthorImg": "https://i.ibb.co/vH3MkxS/myPic.jpg",
+	  "PostedDate": "May 3, 2024",
+	  "ReadingTime": 7,
+	  "Hashtags": ["#poetry", "#reflection", "#introspection"]
+	}
+  ]
+  
