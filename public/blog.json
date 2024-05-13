@@ -1,6 +1,6 @@
 [
 	{
-	  "ID": "987654",
+	  "ID": 1,
 	  "Cover": "https://i.ibb.co/BZ3PM5B/hiking-men-conquer-mountain-peak-adventure-awaits-generative-ai.jpg",
 	  "Title": "Echoes of Eternity",
 	  "Author": "Hamed Hasan",
@@ -10,7 +10,7 @@
 	  "Hashtags": ["#fantasy", "#adventure", "#magic"]
 	},
 	{
-	  "ID": "123456",
+	  "ID": 2,
 	  "Cover": "https://i.ibb.co/cwZTqxp/skull-candle-dark-red-light.jpg",
 	  "Title": "Whispers in the Shadows",
 	  "Author": "Hamed Hasan",
@@ -20,7 +20,7 @@
 	  "Hashtags": ["#horror", "#mystery", "#suspense"]
 	},
 	{
-	  "ID": "789012",
+	  "ID": 3,
 	  "Cover": "https://i.ibb.co/bNs5LBf/young-couple-together-walking-autumn-park.jpg",
 	  "Title": "Sands of Serenity",
 	  "Author": "Aria Evergreen",
@@ -30,7 +30,7 @@
 	  "Hashtags": ["#romance", "#fiction", "#beachread"]
 	},
 	{
-	  "ID": "456789",
+	  "ID": 4,
 	  "Cover": "https://i.ibb.co/Jpwq6ZB/pexels-luis-gomes-166706-546819.jpg",
 	  "Title": "Chronicles of Chaos",
 	  "Author": "Hamed Hasan",
@@ -40,7 +40,7 @@
 	  "Hashtags": ["#scifi", "#dystopian", "#future"]
 	},
 	{
-	  "ID": "234567",
+	  "ID": 5,
 	  "Cover": "https://i.ibb.co/z7nZxgs/pexels-suzyhazelwood-1122865.jpg",
 	  "Title": "Songs of Solitude",
 	  "Author": "Luna Moonshadow",

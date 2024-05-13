@@ -11,7 +11,7 @@ function App() {
 
   const handleAddToBookmark = blog => {
      const newBookmarks = [...bookmarks, blog];
-     setBookmarks(newBookmarks);
+     setBookmarks(newBookmarks);  // this handle function returns newBookmarks that's update of the Bookmarks div section
   }
 
   return (

@@ -1,8 +1,11 @@
-
+import Bookmark from '../Bookmark/Bookmark'
 const Bookmarks = ({bookmarks}) => {
 	return (
-		<div className="md:w-1/3">
-           <h1 className="text-4xl font-bold">Bookmarks: {bookmarks.length}</h1>
+		<div className="md:w-1/3 m-4 bg-gray-300 p-4 rounded-xl">
+           <h1 className="text-3xl font-bold text-center">Bookmarked Blogs: {bookmarks.length}</h1>
+		   {
+			bookmarks.map(bookmark => <Bookmark key={bookmark.ID} bookmark={bookmark}></Bookmark>)
+		   }
 		</div>
 	);
 };
