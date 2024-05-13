@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';    //
 import { MdBookmarks } from "react-icons/md";
 
 const Blog = ({ blog,handleAddToBookmark,handleMarkAsRead }) => {
-    const { Title, Cover, Author, AuthorImg, ReadingTime, PostedDate, Hashtags } = blog; // Include Hashtags here
+    const { Title, Cover, Author, AuthorImg, ReadingTime, PostedDate, Hashtags, ID } = blog; // Include Hashtags here
     //	console.log({Title})
     return (
         <div  className="mb-12">
@@ -24,7 +24,7 @@ const Blog = ({ blog,handleAddToBookmark,handleMarkAsRead }) => {
             <p>
                 {Hashtags.map((hash, idx) => <span key={idx}> <a href={`#${hash}`}>#{hash}</a> </span>)}  {/*we r not calling any component, so no props*/}
             </p>
-			<button onClick={() => handleMarkAsRead(ReadingTime)}
+			<button onClick={() => handleMarkAsRead(ReadingTime,ID)}
 			className="text-purple-600 font-bold underline">Mark As Read</button>
         </div>
     );

@@ -15,9 +15,14 @@ function App() {
      setBookmarks(newBookmarks);  // this handle function returns newBookmarks that's update of the Bookmarks div section
   }
 
-  const handleMarkAsRead = time => {
-   //  console.log("reading time ", time)
+  const handleMarkAsRead = (time,id) => {
+    // console.log("reading time ", time)
        setReadingTime(readingTime+time);   // const newReadingTime = [...readingTime, time]; not bcs it's not array
+
+    // remove the read blog from bookmark
+    //  console.log("remove bookmark", id);  // ok
+       const remainingBookMarks = bookmarks.filter(bookmark => bookmark.id !== id);
+       setBookmarks(remainingBookMarks);
   }
 
   return (
