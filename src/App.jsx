@@ -8,10 +8,16 @@ import Bookmarks from './Components/Bookmarks/Bookmarks'
 
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
+  const [readingTime, setReadingTime] = useState(0);
 
-  const handleAddToBookmark = blog => {
+  const handleAddToBookmark = blog => {    // from Blog.jsx, handleAddToBookmark(blog) this parameter has passed
      const newBookmarks = [...bookmarks, blog];
      setBookmarks(newBookmarks);  // this handle function returns newBookmarks that's update of the Bookmarks div section
+  }
+
+  const handleMarkAsRead = time => {
+   //  console.log("reading time ", time)
+       setReadingTime(readingTime+time);   // const newReadingTime = [...readingTime, time]; not bcs it's not array
   }
 
   return (
@@ -19,8 +25,8 @@ function App() {
     <Header></Header>
 
     <main className="md:flex mx-4 p-4">
-        <Blogs handleAddToBookmark={handleAddToBookmark}></Blogs> 
-        <Bookmarks bookmarks = {bookmarks}></Bookmarks>  
+        <Blogs handleAddToBookmark={handleAddToBookmark} handleMarkAsRead={handleMarkAsRead}></Blogs> 
+        <Bookmarks bookmarks = {bookmarks} readingTime={readingTime}></Bookmarks>  
     </main> 
     </>
   )
