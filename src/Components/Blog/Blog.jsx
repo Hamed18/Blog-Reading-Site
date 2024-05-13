@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
-import { IoBookmarks } from "react-icons/io5";
+import { MdBookmarks } from "react-icons/md";
 
-
-const Blog = ({ blog }) => {
+const Blog = ({ blog,handleAddToBookmark }) => {
     const { Title, Cover, Author, AuthorImg, ReadingTime, PostedDate, Hashtags } = blog; // Include Hashtags here
     //	console.log({Title})
     return (
@@ -18,7 +17,7 @@ const Blog = ({ blog }) => {
                 </div>
                 <div>
                     <span>{ReadingTime} min read</span>
-					<button className="ml-2 text-2xl text-red-400"><IoBookmarks></IoBookmarks></button>
+					<button onClick={handleAddToBookmark} className="ml-2 text-2xl text-red-400"><MdBookmarks></MdBookmarks></button>
                 </div>
             </div>
             <h2 className="text-4xl">{Title}</h2>
