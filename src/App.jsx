@@ -20,8 +20,8 @@ function App() {
        setReadingTime(readingTime+time);   // const newReadingTime = [...readingTime, time]; not bcs it's not array
 
     // remove the read blog from bookmark
-    //  console.log("remove bookmark", id);  // ok
-       const remainingBookMarks = bookmarks.filter(bookmark => bookmark.id !== id);
+    // console.log("remove bookmark", id);  // ok
+       const remainingBookMarks = bookmarks.filter(bookmark => bookmark.ID !== id);
        setBookmarks(remainingBookMarks);
   }
 
